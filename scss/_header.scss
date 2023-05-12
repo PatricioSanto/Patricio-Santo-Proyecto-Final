@@ -1,0 +1,63 @@
+
+  #tit {
+    animation: bounce;
+    animation-duration: 2s; 
+    font-size: 60px;
+    color: $color-titulo;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .logo{
+    
+
+    img{
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+        height: 15%;
+        width: 8%;
+
+    }
+  }
+
+  nav {
+    background-color: $color-principal;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    ul{
+        display: inline-block;
+        list-style: none;
+        padding: 0;
+    }
+
+    li{
+        display: inline-block;
+        position: relative;
+    }
+    a{
+        color: #fff;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+    ul ul{
+       display: none;
+        position: absolute;
+        background-color: $color-principal;
+    }
+    ul li { 
+    &:hover{
+        background-color: rgb(107, 38, 38);
+        
+    }
+    }
+    ul ul li {
+      display: block;
+      width: 100%;
+      text-align: center;
+}
+
+  }

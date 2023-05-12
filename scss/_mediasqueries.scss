@@ -1,0 +1,21 @@
+ /* Estilos para pantallas grandes */
+ @media screen and (min-width: 992px) {
+    main {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  /* Estilos para pantallas medianas */
+  @media screen and (max-width: 991px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 767px) {
+    main {
+      height: auto;
+    }
+  }
+  

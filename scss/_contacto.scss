@@ -1,0 +1,49 @@
+
+#formulario{
+    display:grid;
+    grid-template-columns:auto 800px;
+    justify-content:center;
+    
+    
+  }
+  label{
+    margin:50px;
+    font-size:20pt;
+    color:rgb(7, 7, 7);
+    
+  }
+  
+  ::placeholder {
+    font-size:15pt;
+    font-family:arial;
+    color: rgb(143, 140, 140);
+   
+  }
+  input{
+    color:black;
+    font-size:15pt;
+    margin:2%;
+    padding: 5px;
+
+  }
+  
+  
+  #boton{
+    margin-top:5%;
+    grid-column:1/span 2;
+    
+    color:black;
+    background-color:rgb(255, 255, 255);
+
+    &:hover{
+        background-color:#e97869;
+        transform: scale(1.05);
+         transition:  0.5s ease-in-out;
+         box-shadow:  0 0 7px rgb(247, 3, 3);
+        color: white;
+      }
+  }
+  .contenedorFormulario{
+
+    margin: 5%;
+  }
